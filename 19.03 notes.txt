@@ -1,0 +1,45 @@
+javascript
+
+c,cpp,
+java,python - 
+
+program :
+
+binary code , machine level languange 
+
+browser - executable 
+
+html file - > head , body
+
+
+adding javascript to the program :
+
+1. internal js
+
+2.external js
+
+
+
+
+v8 engine - program interpret js 
+
+firefox - spider monkey
+
+edge - chakra
+
+instructions - > binary format - > syntax checking -> AST 
+
+interpret :
+
+
+
+js programming:
+
+console
+
+user interaction:
+1. alert
+
+
+
+
