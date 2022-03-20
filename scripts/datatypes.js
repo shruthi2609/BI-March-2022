@@ -20,7 +20,11 @@ let fresher=0
 console.log(typeof fresher,fresher)
 let salary
 console.log(salary)
-console.log(-100/0)*/
+console.log(-100/0)
+let answer1 = "It's alright";   // Single quote inside double quotes
+let answer2 = "He is called 'Johnny'";   // Single quotes inside double quotes
+let answer3 = 'He is called "Johnny"';   // Double quotes inside single quotes
+*/
 
 let users=["user1","user2","user3",9.0,23,["react js","js"]]
 console.log(users)
