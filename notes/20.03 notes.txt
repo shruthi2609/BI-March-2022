@@ -1,0 +1,28 @@
+
+two category :
+
+1.primitive
+2.non primitive / reference
+
+number
+bigint
+string
+boolean
+null
+undefined
+NaN
+Infinity
+-Infinity
+
+object
+array
+function
+
+
+a=60
+b=20
+c=30
+
+
+
+

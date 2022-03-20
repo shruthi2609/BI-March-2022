@@ -1,0 +1,41 @@
+Problem 1:
+
+Declare two variables: admin and name.
+Assign the value "John" to name.
+Copy the value from name to admin.
+Show the value of admin using alert (must output “John”).
+
+
+Problem 2:
+
+What is the output of the script?
+
+let name = "john";
+
+alert( `hello ${1}` ); // ?
+
+alert( `hello ${"name"}` ); // ?
+
+alert( `hello ${name}` ); // ?
+
+
+Problem 3:
+
+What are the final values of all variables a, b, c and d after the code below?
+
+let a = 1, b = 1;
+
+let c = ++a; // ?
+let d = b++; // ?
+
+Problem 4:
+
+What are the values of a and x after the code below?
+
+let a = 2;
+
+let x = 1 + (a *= 2);
+
+
+
+
