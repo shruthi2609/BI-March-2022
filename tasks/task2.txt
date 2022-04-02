@@ -6,6 +6,8 @@ if ("0") {
   alert( 'Hello' );
 }
 
+
+
 2.Using if..else, write the code which gets a number via prompt and then shows in alert:
 
 1, if the value is greater than zero,

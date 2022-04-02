@@ -17,13 +17,22 @@ console.log(c!==d)*/
 // == != => normal ops
 //=== !== => strict equality ops
 //nullish coaleasing operator ??
-let fname;
+/*let fname;
 let lname;
 console.log(fname??lname??"give some name")//
 //console.log(fname||"user not given")
 // ?? returns first defined value
-//|| return first truthy value
-
+//|| return first truthy value*/
+/*if(age>=18){
+    console.log("eligible")
+}
+else{
+    console.log("not eligible")
+}
+age=10
+//age>=18?console.log("eleigible"): console.log("not eligible")
+let message=age>=18?"eligible":"not eligible"
+console.log(message)*/
 
 
 
