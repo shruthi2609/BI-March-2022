@@ -40,11 +40,7 @@ let message;
 
 if (login == 'Employee') {
   message = 'Hello';
-} else if (login == 'Director') {
-  message = 'Greetings';
-} else if (login == '') {
-  message = 'No login';
-} else {
+}  else {
   message = '';
 }
 
@@ -67,4 +63,4 @@ switch (browser) {
 }
 
 
-6.
+6.looping statements print numbers divisible by 5 and 3 in the range 0 to 100
