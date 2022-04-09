@@ -70,8 +70,33 @@ const add=(a,b="user")=>{
 const sample=()=>{
     console.log("test")
 }
+sample()
+function add(a,b){
+    let c=a+b
+   return c
+}
 
-sample()*/
+let res=add(10,5)
+console.log(res)
+const RED="FF5733"
+console.log(RED)
+
+function powofn(a,b){
+    let base=a
+    for(b times){
+        base=base*base
+    }
+    return base
+}
+fucntion minno(a,b){
+    a<b
+}
+fname=prompt("name?")
+alert(`Hello ${fname}`)
+no=
+do{
+   no= propmp("entera no > 100")
+}while(no>100)*/
 
 
 
