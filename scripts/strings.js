@@ -63,7 +63,15 @@ let str1="hello Javascript Javascript"
 console.log(str1.split(" ").length)
 console.log(str1.split("").length)*/
 
-
+console.log(5 > 4)
+console.log("apple" > "pineapple")
+console.log("A">"C")
+console.log("ZEE">"ZOO")
+console.log("2" > "12")
+console.log(undefined == null)
+console.log(undefined === null)
+console.log(null == "\n0\n")
+console.log(null === +"\n0\n")
 
 
 
