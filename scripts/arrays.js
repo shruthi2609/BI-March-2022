@@ -1,4 +1,5 @@
-// 1. convery an array to string without tostring
+
+
 /*let users=["john","peter","henry"]
 users[1]="mary"
 console.log(users[1])
