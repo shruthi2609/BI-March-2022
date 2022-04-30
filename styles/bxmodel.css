@@ -1,0 +1,52 @@
+.c1{
+    background-color: aqua;
+}
+.c2{
+    color:red
+}
+#i1{
+    background-color: violet;
+}
+#i2{
+    color:white
+}
+div{
+    background-color: blueviolet;
+    height: 200px;
+}
+.brd{
+   /* border-style: dashed;
+    border-width: 5px;
+    border-color:black;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+     padding:10px 20px 30px 40px;*/
+    color:red;
+    border:dotted 5px black; 
+   padding:20px;
+    margin:20px;
+    text-align: center;
+    background-color: aqua;
+    text-decoration: underline;  
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-indent: 20px;
+    /*word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 20px;
+    text-shadow: 5px 10px grey;
+      white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+font-size:3vw;/* 1em = 16px 1vw=1% device width in cm*/
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight:lighter;
+  
+}

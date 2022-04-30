@@ -1,0 +1,53 @@
+h2,h3{
+    background-color: bisque;
+    color: red;
+}
+thead{
+    background-color: deepskyblue;
+}
+tbody{
+    background-color: brown;
+}
+tfoot{
+    background-color: blueviolet;
+}
+
+.firstbg{
+    background-color: black;
+    border-style: dotted;
+    display: inline;
+}
+.firsttxt{
+    color:white
+}
+.secondbg{
+    background-color: rgb(20, 177, 49);
+    border-style: dashed;
+}
+.secondtext{
+    color:rgb(118, 7, 25)
+}
+
+
+#onebg{
+    background-color: aqua;
+}
+#onetxt{
+    color:red
+}
+#twobg{
+    background-color: palevioletred;
+}
+*{
+    background-color: rgb(169, 99, 234);
+}
+.bx{
+ 
+    border-style:dashed;
+    border-color: yellow;
+    border-width: 5px;
+}
+
+
+
+
