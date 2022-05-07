@@ -1,0 +1,13 @@
+.table{
+    display: table;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+}
+.tstyle{
+    border:2px solid red;
+    padding:20px;
+}
