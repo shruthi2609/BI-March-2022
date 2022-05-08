@@ -1,0 +1,33 @@
+input:checked{
+    width:20px;
+    height:20px;
+}
+input:disabled{
+    background-color: grey;
+}
+input:enabled{
+    background-color: green;
+    border-color: red;
+
+}
+input:focus{
+    background-color: yellow;
+    border-color: green;
+    border-width: 3px;
+}
+input:invalid{
+    background-color: red;
+}
+input:in-range{
+    background-color: rgb(42, 63, 218);
+}
+
+:not(h1){
+    color: red;
+}
+h1{
+    color:black
+}
+input:required{
+    color: black;
+}

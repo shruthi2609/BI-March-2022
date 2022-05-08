@@ -1,0 +1,52 @@
+static
+relative
+absolute
+fixed 
+sticky
+
+combinator:
+
+descendant space
+child >
+
+adaj sibling/immediate sibling +
+
+general sibling ~
+
+
+
+
+:nth-child(n) - Selects every element that is the second child of its parent. Ex.  p:nth-child(2)
+:nth-last-child(n) - Selects every element that is the second child of its parent, counting from the last child. Ex. p:nth-last-child(2)
+:nth-last-of-type(n) - Selects every element that is the second element of its parent, counting from the last child. Ex. p:nth-last-of-type(2)
+:nth-of-type(n) - Selects every element that is the second element of its parent. Ex. p:nth-of-type(2)
+:only-of-type - Selects every <p> element that is the only <p> element of its parent . Ex. p:only-of-type
+:only-child - Selects every <p> element that is the only child of its parent. Ex. p:only-child
+:optional - Selects <input> elements with no "required" attribute. Ex. input:optional
+:out-of-range - Selects <input> elements with a value outside a specified range. Ex. input:out-of-range
+:read-only - Selects <input> elements with a "readonly" attribute specified. Ex. input:read-only
+:read-write - Selects <input> elements with no "readonly" attribute. Ex. input:read-write
+:required - Selects <input> elements with a "required" attribute specified. Ex. input:required
+:root - Selects the document's root element. Ex. root
+:target - Selects the current active #news element (clicked on a URL containing that anchor name). Ex. #news:target
+:valid - Selects all <input> elements with a valid value. Ex. input:valid
+:visited - Selects all visited links. Ex. a:visited
+
+
+It defines a special state of an element. Values:
+:active - Selects the active link. Ex. a:active
+:checked - Selects every checked <input> element. Ex. input:checked
+:disabled - Selects every disabled <input> element. Ex. input:disabled
+:empty - Selects every element that has no children. Ex. p:empty
+:enabled - Selects every enabled <input> element. Ex. input:enabled
+:first-child - Selects every element that is the first child of its parent. Ex. p:first-child
+:first-of-type - Selects every element that is the first element of its parent. Ex. p:first-of-type
+:focus - Selects the <input> element that has focus. Ex. input:focus
+:hover - Selects links on mouse over. Ex. a:hover
+:in-range - Selects <input> elements with a value within a specified range. Ex. input:in-range
+:invalid - Selects all <input> elements with an invalid value. Ex. input:invalid
+:lang(language) - Selects every element with a lang attribute value starting with "it". Ex. p:lang(it)
+:last-child - Selects every element that is the last child of its parent. Ex. p:last-child
+:last-of-type - Selects every element that is the last <p> element of its parent. Ex. p:last-of-type
+:link - Selects all unvisited links. a:link
+:not(selector) - Selects every element that is not an element. Ex. :not(p)

@@ -1,0 +1,20 @@
+/* descendant
+
+.parent .child{
+    background-color: aqua;
+}
+child selector
+div>p{
+    background-color: beige;
+}
+adjacent sibling
+p+p{
+    background-color: aqua;
+}
+general sibling
+p~p{
+background-color: aqua;
+}*/
+ul p{
+    background-color: red;
+}

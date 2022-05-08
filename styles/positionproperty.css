@@ -1,0 +1,57 @@
+.c1{
+    background-color: aqua;
+    padding:15px;
+    
+}
+/*.main{
+    position: relative;
+    background-color: palevioletred;
+    padding:15px;
+    left:10px;
+    top:20px;
+}*/
+/*.main{
+    position: static;
+    background-color: palevioletred;
+    padding:15px;
+    left:10px;
+    top:20px;
+}
+.main{
+    position: fixed;
+    background-color: palevioletred;
+    padding:15px;
+    left:10px;
+    bottom:10px;
+}
+.main{
+    position: fixed;
+    background-color: palevioletred;
+    padding:15px;
+    left:10px;
+    bottom:10px;
+}*/
+.main{
+    position: sticky;
+    background-color: palevioletred;
+    padding:15px;
+    top:0px;
+}
+.p1{
+    position:relative;
+   
+}
+body{
+    height: 800px;
+}
+.ovf{
+    background-color: palegreen;
+    max-width:250px;
+    max-height:100px;
+    border:2px solid red;
+  overflow: scroll;
+}
+
+
+
+
