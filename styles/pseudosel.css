@@ -1,4 +1,4 @@
-input:checked{
+/*input:checked{
     width:20px;
     height:20px;
 }
@@ -30,4 +30,17 @@ h1{
 }
 input:required{
     color: black;
+}
+li:first-child{
+    color:blue;
+}*/
+li:first-of-type{
+    color:blue;
+}
+li:nth-child(2){
+    color:red;
+}
+
+p:only-of-type{
+    color:chocolate
 }

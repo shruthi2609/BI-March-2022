@@ -1,0 +1,36 @@
+a[target="_blank"]{
+    background-color: yellow;
+}
+/*
+space seperated
+ul[class~="main"]{
+    background-color: coral;
+}
+hyphen sepereated
+ul[class|="main"]{
+    background-color: coral;
+}
+starting
+div[class^="content"]{
+    background-color: aqua;
+}
+ending
+div[class$="content"]{
+    background-color: aqua;
+}
+div[class*="main"]{
+    background-color: red;
+}
+ul[class="sub"]{
+    background-color: rgb(80, 255, 86);
+}
+.parent-container{
+    font-size:30px;
+}
+.child-container{
+    font-size:3rem;
+}*/
+h3{
+    background-color: aqua;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of CSS3 Translate Animation</title>
+<style>
+    .box {
+		margin: 50px;
+        width:353px;
+        height:303px;
+        background: url("duck.png") no-repeat;
+        position: relative;
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: moveit;
+        -webkit-animation-duration: 2s;
+        /* Standard syntax */
+        animation-name: moveit;
+        animation-duration: 2s;
+    }
+     
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes moveit {
+        from {left: 0;}
+        to {left: 50%;}
+    }
+     
+    /* Standard syntax */
+    @keyframes moveit {
+        from {left: 0;}
+        to {left: 50%;}
+    }
+</style>
+</head>
+<body>
+    <p><strong>Note:</strong> Click the "Show Output" button to repeat the animation.</p>
+    <div class="box"></div>
+</body>
+</html>
