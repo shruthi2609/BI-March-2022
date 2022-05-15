@@ -13,26 +13,43 @@
         /* Chrome, Safari, Opera */
         -webkit-animation-name: moveit;
         -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: 3;
         /* Standard syntax */
         animation-name: moveit;
-        animation-duration: 2s;
+        animation-duration: 5s;
+        animation-iteration-count: 3
     }
-     
     /* Chrome, Safari, Opera */
     @-webkit-keyframes moveit {
-        from {left: 0;}
-        to {left: 50%;}
+     /*   from {left: 0;}
+        to {left: 50%;}*/
+            0%   {left:10%;
+            background-color: red;}
+         25%  {left:25%;
+            background-color:yellow;}
+          50%  {left:75%;
+            background-color: orange;}
+          100% {left:100%;
+            background-color: green}
     }
      
     /* Standard syntax */
     @keyframes moveit {
-        from {left: 0;}
-        to {left: 50%;}
+      /*  from {left: 0;}
+        to {left: 50%;}*/
+            0%{left:10%;
+            background-color: red;}
+         25%  {left:25%;
+            background-color:yellow;}
+          50%  {left:75%;
+            background-color: orange;}
+          100% {left:100%;
+            background-color: green}
     }
 </style>
 </head>
 <body>
-    <p><strong>Note:</strong> Click the "Show Output" button to repeat the animation.</p>
+  
     <div class="box"></div>
 </body>
 </html>

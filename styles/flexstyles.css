@@ -1,0 +1,25 @@
+.parent-container{
+    display:flex;
+    flex-direction:row;
+    align-content: flex-start;
+}
+.c1{
+    background-color: palegoldenrod;
+    height:200px;
+  /*  width:25%;*/
+}
+.c2{
+    background-color: palevioletred;
+    height:200px;
+ /*  width:25%;*/
+}
+.c3{
+    background-color: powderblue;
+    height:200px;
+  /*  width:25%;*/
+}
+.c4{
+    background-color: peru;
+    height:200px;
+  /*  width:25%;*/
+}
