@@ -1,0 +1,25 @@
+.d1{
+    height: 300px;
+    background-color: aqua;
+    font-size:32px;
+}
+.d2{
+    color:red
+}
+/*mobile size*/
+@media screen and (min-width:350px) and (max-width:425px){
+    .d1{
+        background-color: red;
+        font-size: 16px;
+    }
+    .d2{
+        color:blue
+    }
+}
+@media screen and (min-width:426px) and (max-width:767px){
+    div{
+        background-color: rgb(199, 228, 105);
+        font-size: 20px;
+    }
+
+}
