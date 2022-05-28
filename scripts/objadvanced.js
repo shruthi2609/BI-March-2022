@@ -87,6 +87,7 @@ test()
 function greetUser(fname){
     console.log(`welcome ${fname}`)
 }
+
 function getUser(callback){
 let fname=prompt("enter your name")
 callback(fname)
@@ -104,6 +105,7 @@ let user={
         this.department=d
     }
 }
+
 console.log(user.dep)
 user.dep="CSE"
 console.log(user.dep)
