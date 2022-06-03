@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function locationProps(){
+            console.log(window.location.href)
+            console.log(window.location.protocol)
+            console.log(window.location.host)
+            console.log(window.location.port)
+            console.log(window.location.pathname)
+            console.log(window.location.hash)
+            window.location.replace("https://google.com")
+          /*  window.location.assign("https://google.com")*/
+        }
+    </script>
+</head>
+<body>
+    <h1>Second Page</h1>
+   <button onclick="locationProps()">location properties</button>
+   <a href="file3.html">third</a>
+</body>
+</html>

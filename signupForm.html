@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error{
+            color:red;
+        }
+    </style>
+    <script>
+        /*setting error message*/
+        function printError(eleid,msg){
+            document.getElementById(eleid).innerHTML=msg
+        }
+
+        function validateForm(){
+            /*get form input*/
+            const username=document.signUpForm.username.value
+            const password=document.signUpForm.pwd.value
+            const mobile=document.signUpForm.mobile.value
+            const country=document.signUpForm.country.value
+            console.log(country)
+            let nameErr=true
+            let pwdErr=true
+            let mobileErr=true
+            let countryErr=true
+        //validate username
+            if(username===""){
+                printError("nameErr","please dont leave username blank")
+            }
+            else{
+                printError("nameErr","")
+                nameErr=false
+            }
+        //validate pwd
+            if(password===""){
+                printError("pwdErr","please dont leave password field blank")
+            }
+            else{
+                printError("pwdErr","")
+                pwdErr=false
+            }
+        //mobile 
+        if(mobile===""){
+                printError("mobileErr","please dont leave mobile field blank")
+            }
+            else{
+                printError("mobileErr","")
+                mobileErr=false
+            }
+        //country validation
+        if(country==="nothin"){
+            printError("countryErr","please select your country")
+        }
+        else{
+                printError("countryErr","")
+                countryErr=false
+            }
+
+            if(nameErr===true||pwdErr===true||mobileErr===true||countryErr===true){
+                return false
+            }
+
+
+            
+        }
+    </script>
+</head>
+<body>
+    <form name="signUpForm" onsubmit="return validateForm()" action="home.html">
+        <h2>Signup Form</h2>
+        <div>
+            <label>Username</label>
+            <input type="text" name="username">
+            <div class="error" id="nameErr"></div>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="text" name="pwd">
+            <div class="error" id="pwdErr"></div>
+        </div>
+        <div>
+            <label>Mobile</label>
+            <input type="text" name="mobile">
+            <div class="error" id="mobileErr"></div>
+        </div>
+        <div>
+        <select name="country">
+            <option value="nothin">select a country</option>
+            <option value="india">India</option>
+        </select>
+        <div class="error" id="countryErr"></div>
+        <input type="submit">
+    </div>
+
+    </form>
+</body>
+</html>
