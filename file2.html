@@ -14,7 +14,18 @@
             console.log(window.location.pathname)
             console.log(window.location.hash)
             window.location.replace("https://google.com")
-          /*  window.location.assign("https://google.com")*/
+          /*  window.location.assign("https://google.com")
+          
+          function getLocation() {
+  Navigator.geolocation ? navigator.geolocation.getCurrentPosition(showPosition, showError) : console.log("Geolocation is not supported by this browser.");
+}
+function showPosition(position) {
+  console.log(`Latitude: ${position.coords.latitude} Longitude: ${position.coords.longitude}`);
+}
+function showError(error) {
+  console.log("An error occurred");
+}
+*/
         }
     </script>
 </head>
