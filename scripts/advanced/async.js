@@ -1,3 +1,4 @@
+//sample
 function fetchUser(){
 const promiseobj=new Promise((resolve,reject)=>{
     let user;
