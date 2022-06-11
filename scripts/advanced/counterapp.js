@@ -5,7 +5,7 @@ count=count+1
 document.getElementById("count").innerHTML=count
 }
 
-function decr(){
+const decr=()=>{
     
     count=count-1
 document.getElementById("count").innerHTML=count

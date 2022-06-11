@@ -1,0 +1,37 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero-image{
+    background-image: url("../Chrysanthemum.jpg");
+    height:80vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.hero-text{
+    position: absolute;
+    font-size:24px;
+    color:white;
+    width:500px;
+    height:300px;
+   text-align: center;
+    top:50%;
+    left:50%;
+   /* margin-left:-350px;
+    margin-top:-150px;*/
+    transform: translate(-50%,-50%);
+    background-color: beige;
+}
+button{
+    padding:10px 15px;
+    background-color: rgb(68, 66, 66);
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    border-radius:0.25rem;
+}
+button:hover{
+    background-color:white ;
+    color:rgb(68, 66, 66);
+}
